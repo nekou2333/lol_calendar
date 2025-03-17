@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:2023全球总决赛资格赛全球总决赛资格赛当天
+DURATION:PT4H
+ORGANIZER;CN=英雄联盟2023全球总决赛资格赛:mailto:lpl@qq.com
+DTSTART:20231009T120000Z
+STATUS:TENTATIVE
+SUMMARY:GG vs BDS - 0 : 3
+UID:2eac258f-46e0-4be3-b95d-daafeadcc5bb@2eac.org
+URL:https://lpl.qq.com/es/live.shtml
+END:VEVENT
+END:VCALENDAR

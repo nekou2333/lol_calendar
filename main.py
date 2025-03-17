@@ -1,11 +1,11 @@
 import requests
 from pathlib import Path
 import json
-
 from ics import Calendar
-
 from consts import API_URL, OUTPUTS
 from models import Match
+from itertools import groupby
+from typing import List
 
 
 def load_data(is_debug: bool = False):
@@ -21,7 +21,12 @@ def load_data(is_debug: bool = False):
     return matches
 
 
-def generate_ics(name: str, games: [Match]):
+def group_games(games: List[Match]):
+    for game_name, grouped_games in groupby(games, key=lambda game: game.GameName):
+        generate_ics(game_name, list(grouped_games))
+
+
+def generate_ics(name: str, games: List[Match]):
     if not name.endswith(".ics"):
         name += ".ics"
     cal = Calendar()
@@ -43,3 +48,4 @@ if __name__ == "__main__":
 
     games = load_data(is_debug=args.debug)
     generate_ics("LOL赛事", games)
+    group_games(games)

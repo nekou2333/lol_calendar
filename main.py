@@ -8,11 +8,13 @@ from consts import API_URL, OUTPUTS
 from models import Match
 
 
-def load_data(is_debug: bool = True):
+def load_data(is_debug: bool = False):
     if is_debug:
+        print("Loading example data")
         data = Path("example.json").read_text()
     else:
-        data = requests.get(API_URL).json()
+        print("Loading data from API")
+        data = requests.get(API_URL).text
 
     content = json.loads(data)
     matches = [Match(**item) for item in content.get("msg")]
@@ -33,5 +35,11 @@ def generate_ics(name: str, games: [Match]):
 
 
 if __name__ == "__main__":
-    games = load_data()
+    from argparse import ArgumentParser
+
+    parser = ArgumentParser()
+    parser.add_argument("--debug", type=bool, default=False)
+    args = parser.parse_args()
+
+    games = load_data(is_debug=args.debug)
     generate_ics("LOL赛事", games)

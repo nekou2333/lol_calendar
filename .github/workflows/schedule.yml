@@ -34,14 +34,14 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
       
-      - name: Create Release
-        uses: softprops/action-gh-release@v1
-        with:
-          name: LOL Calendar Update ${{ steps.date.outputs.date }}
-          tag_name: release-${{ steps.date.outputs.date }}
-          files: |
-            outputs/*.ics
-          generate_release_notes: true
+      # - name: Create Release
+      #   uses: softprops/action-gh-release@v1
+      #   with:
+      #     name: LOL Calendar Update ${{ steps.date.outputs.date }}
+      #     tag_name: release-${{ steps.date.outputs.date }}
+      #     files: |
+      #       outputs/*.ics
+      #     generate_release_notes: true
 
       - name: Commit and push if changed
         run: |

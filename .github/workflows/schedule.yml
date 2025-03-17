@@ -40,6 +40,5 @@ jobs:
           name: LOL Calendar Update ${{ steps.date.outputs.date }}
           tag_name: release-${{ steps.date.outputs.date }}
           files: |
-            *.json
-            *.ics
+            outputs/*.ics
           generate_release_notes: true

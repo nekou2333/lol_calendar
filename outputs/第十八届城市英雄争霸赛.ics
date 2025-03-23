@@ -5,10 +5,10 @@ BEGIN:VEVENT
 DESCRIPTION:第十八届城市英雄争霸赛全国总决赛16进8
 DURATION:PT3H
 ORGANIZER;CN=英雄联盟第十八届城市英雄争霸赛:mailto:lpl@qq.com
-DTSTART:20231202T140000Z
+DTSTART:20231202T180000Z
 STATUS:TENTATIVE
 SUMMARY:全国总决赛 八强晋级赛 - 0 : 2
-UID:8369e24a-86d3-49ef-830b-480a4424b4ba@8369.org
+UID:ed4d9f95-c241-41a7-b377-8fbfb572e0f8@ed4d.org
 URL:https://lpl.qq.com/es/live.shtml
 END:VEVENT
 BEGIN:VEVENT
@@ -18,7 +18,7 @@ ORGANIZER;CN=英雄联盟第十八届城市英雄争霸赛:mailto:lpl@qq.com
 DTSTART:20231202T160000Z
 STATUS:TENTATIVE
 SUMMARY:全国总决赛 八强晋级赛 - 1 : 2
-UID:17558d8c-7fdf-43f0-999e-5f3ba5dbecca@1755.org
+UID:b2fe4655-8f3b-4879-a55d-adcb4e1e678d@b2fe.org
 URL:https://lpl.qq.com/es/live.shtml
 END:VEVENT
 BEGIN:VEVENT
@@ -28,37 +28,7 @@ ORGANIZER;CN=英雄联盟第十八届城市英雄争霸赛:mailto:lpl@qq.com
 DTSTART:20231203T140000Z
 STATUS:TENTATIVE
 SUMMARY:全国总决赛半决赛 - 0 : 2
-UID:1b185eae-a8db-4074-a865-8bbd4c883be8@1b18.org
-URL:https://lpl.qq.com/es/live.shtml
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:第十八届城市英雄争霸赛全国总决赛16进8
-DURATION:PT3H
-ORGANIZER;CN=英雄联盟第十八届城市英雄争霸赛:mailto:lpl@qq.com
-DTSTART:20231202T180000Z
-STATUS:TENTATIVE
-SUMMARY:全国总决赛 八强晋级赛 - 0 : 2
-UID:df808315-de6f-4fec-a1c4-f7bfada77294@df80.org
-URL:https://lpl.qq.com/es/live.shtml
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:第十八届城市英雄争霸赛全国总决赛决赛
-DURATION:PT4H
-ORGANIZER;CN=英雄联盟第十八届城市英雄争霸赛:mailto:lpl@qq.com
-DTSTART:20231203T180000Z
-STATUS:TENTATIVE
-SUMMARY:全国总决赛决赛 - 3 : 1
-UID:791621ae-6deb-485a-881f-1b3a0c864b78@7916.org
-URL:https://lpl.qq.com/es/live.shtml
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:第十八届城市英雄争霸赛全国总决赛半决赛
-DURATION:PT3H
-ORGANIZER;CN=英雄联盟第十八届城市英雄争霸赛:mailto:lpl@qq.com
-DTSTART:20231203T120000Z
-STATUS:TENTATIVE
-SUMMARY:全国总决赛半决赛 - 0 : 2
-UID:367a500e-e6e0-4d6a-be25-445acede0d27@367a.org
+UID:4d9f64af-9e75-4cc3-90ad-c9b457ea6dbf@4d9f.org
 URL:https://lpl.qq.com/es/live.shtml
 END:VEVENT
 BEGIN:VEVENT
@@ -68,7 +38,37 @@ ORGANIZER;CN=英雄联盟第十八届城市英雄争霸赛:mailto:lpl@qq.com
 DTSTART:20231202T120000Z
 STATUS:TENTATIVE
 SUMMARY:全国总决赛 八强晋级赛 - 0 : 2
-UID:7fcb75da-21cf-4063-ad1f-915cec741ff3@7fcb.org
+UID:7d440088-c1e9-43df-970b-cfd5085ad673@7d44.org
+URL:https://lpl.qq.com/es/live.shtml
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:第十八届城市英雄争霸赛全国总决赛半决赛
+DURATION:PT3H
+ORGANIZER;CN=英雄联盟第十八届城市英雄争霸赛:mailto:lpl@qq.com
+DTSTART:20231203T120000Z
+STATUS:TENTATIVE
+SUMMARY:全国总决赛半决赛 - 0 : 2
+UID:f4a47236-dfac-42f9-bbaa-a6e7b8d06391@f4a4.org
+URL:https://lpl.qq.com/es/live.shtml
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:第十八届城市英雄争霸赛全国总决赛决赛
+DURATION:PT4H
+ORGANIZER;CN=英雄联盟第十八届城市英雄争霸赛:mailto:lpl@qq.com
+DTSTART:20231203T180000Z
+STATUS:TENTATIVE
+SUMMARY:全国总决赛决赛 - 3 : 1
+UID:aa9feee9-c43c-484d-b3fb-713d3260c4aa@aa9f.org
+URL:https://lpl.qq.com/es/live.shtml
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:第十八届城市英雄争霸赛全国总决赛16进8
+DURATION:PT3H
+ORGANIZER;CN=英雄联盟第十八届城市英雄争霸赛:mailto:lpl@qq.com
+DTSTART:20231202T140000Z
+STATUS:TENTATIVE
+SUMMARY:全国总决赛 八强晋级赛 - 0 : 2
+UID:e50ada6a-ce69-417c-bd1b-34957022785a@e50a.org
 URL:https://lpl.qq.com/es/live.shtml
 END:VEVENT
 END:VCALENDAR

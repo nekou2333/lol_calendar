@@ -8,27 +8,7 @@ ORGANIZER;CN=英雄联盟2024德玛西亚杯:mailto:lpl@qq.com
 DTSTART:20241229T170000Z
 STATUS:TENTATIVE
 SUMMARY:AL vs TES - 3 : 1
-UID:310a5c71-6611-491a-b0fc-149c15c4e169@310a.org
-URL:https://lpl.qq.com/es/live.shtml
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:2024德玛西亚杯淘汰赛半决赛
-DURATION:PT4H
-ORGANIZER;CN=英雄联盟2024德玛西亚杯:mailto:lpl@qq.com
-DTSTART:20241227T170000Z
-STATUS:TENTATIVE
-SUMMARY:TES vs TT - 3 : 0
-UID:0a054cfa-2f30-403e-8f34-d01c1f1e19d7@0a05.org
-URL:https://lpl.qq.com/es/live.shtml
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:2024德玛西亚杯淘汰赛四分之一决赛
-DURATION:PT3H
-ORGANIZER;CN=英雄联盟2024德玛西亚杯:mailto:lpl@qq.com
-DTSTART:20241223T170000Z
-STATUS:TENTATIVE
-SUMMARY:EDG vs WBG - 0 : 2
-UID:ddab6ac2-bd15-4f41-9e4f-f18a08a50c35@ddab.org
+UID:e62cf0bf-93b9-4053-b973-8676a3139bf4@e62c.org
 URL:https://lpl.qq.com/es/live.shtml
 END:VEVENT
 BEGIN:VEVENT
@@ -38,7 +18,7 @@ ORGANIZER;CN=英雄联盟2024德玛西亚杯:mailto:lpl@qq.com
 DTSTART:20241224T170000Z
 STATUS:TENTATIVE
 SUMMARY:TT vs LNG - 2 : 1
-UID:e3260183-16da-4343-a84a-7a01a6b7503d@e326.org
+UID:a60bb493-0829-480e-a5f8-f8933abb33eb@a60b.org
 URL:https://lpl.qq.com/es/live.shtml
 END:VEVENT
 BEGIN:VEVENT
@@ -48,7 +28,27 @@ ORGANIZER;CN=英雄联盟2024德玛西亚杯:mailto:lpl@qq.com
 DTSTART:20241223T190000Z
 STATUS:TENTATIVE
 SUMMARY:AL vs BLG - 2 : 0
-UID:8d1c0b90-a1ff-41a4-bd4b-93d29da6f151@8d1c.org
+UID:4aa94c66-cf86-4eda-8c2d-eda45c995fae@4aa9.org
+URL:https://lpl.qq.com/es/live.shtml
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:2024德玛西亚杯淘汰赛半决赛
+DURATION:PT4H
+ORGANIZER;CN=英雄联盟2024德玛西亚杯:mailto:lpl@qq.com
+DTSTART:20241227T170000Z
+STATUS:TENTATIVE
+SUMMARY:TES vs TT - 3 : 0
+UID:a6c5d15b-fe8c-444a-a204-78e1701da358@a6c5.org
+URL:https://lpl.qq.com/es/live.shtml
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:2024德玛西亚杯淘汰赛四分之一决赛
+DURATION:PT3H
+ORGANIZER;CN=英雄联盟2024德玛西亚杯:mailto:lpl@qq.com
+DTSTART:20241223T170000Z
+STATUS:TENTATIVE
+SUMMARY:EDG vs WBG - 0 : 2
+UID:b517c15a-d9a1-41f4-ae11-d92510d2cc37@b517.org
 URL:https://lpl.qq.com/es/live.shtml
 END:VEVENT
 BEGIN:VEVENT
@@ -58,7 +58,7 @@ ORGANIZER;CN=英雄联盟2024德玛西亚杯:mailto:lpl@qq.com
 DTSTART:20241226T170000Z
 STATUS:TENTATIVE
 SUMMARY:WBG vs AL - 1 : 3
-UID:f63c36f3-d7d5-424a-8910-50cafbf96d3e@f63c.org
+UID:3832de98-d096-4327-a53e-73939bf0beab@3832.org
 URL:https://lpl.qq.com/es/live.shtml
 END:VEVENT
 BEGIN:VEVENT
@@ -68,7 +68,7 @@ ORGANIZER;CN=英雄联盟2024德玛西亚杯:mailto:lpl@qq.com
 DTSTART:20241224T190000Z
 STATUS:TENTATIVE
 SUMMARY:IG vs TES - 0 : 2
-UID:1c122599-fccd-402b-828c-bd0d377392c1@1c12.org
+UID:503ab19b-e02a-41a7-98b7-63cddd86a42a@503a.org
 URL:https://lpl.qq.com/es/live.shtml
 END:VEVENT
 END:VCALENDAR

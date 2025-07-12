@@ -5,20 +5,20 @@ BEGIN:VEVENT
 DESCRIPTION:第十九届城市英雄争霸赛决赛组城市赛道
 DURATION:PT3H
 ORGANIZER;CN=英雄联盟第十九届城市英雄争霸赛:mailto:lpl@qq.com
-DTSTART:20250104T193000Z
+DTSTART:20250104T170000Z
 STATUS:TENTATIVE
-SUMMARY:TTLYY vs TTTT - 2 : 0
-UID:ce867ab1-884d-43e7-a9fa-1d14fd3a823a@ce86.org
+SUMMARY:DYG vs BBBS - 2 : 1
+UID:0faaccb4-2efb-4d63-87e6-968f68806dc0@0faa.org
 URL:https://lpl.qq.com/es/live.shtml
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:第十九届城市英雄争霸赛决赛组城市赛道
 DURATION:PT3H
 ORGANIZER;CN=英雄联盟第十九届城市英雄争霸赛:mailto:lpl@qq.com
-DTSTART:20250104T170000Z
+DTSTART:20250104T193000Z
 STATUS:TENTATIVE
-SUMMARY:DYG vs BBBS - 2 : 1
-UID:461aac9b-c968-4819-ac4c-717bd3fb52da@461a.org
+SUMMARY:TTLYY vs TTTT - 2 : 0
+UID:2f666258-1636-4cbb-9c8d-b7c3724fbb1c@2f66.org
 URL:https://lpl.qq.com/es/live.shtml
 END:VEVENT
 BEGIN:VEVENT
@@ -28,7 +28,7 @@ ORGANIZER;CN=英雄联盟第十九届城市英雄争霸赛:mailto:lpl@qq.com
 DTSTART:20250105T170000Z
 STATUS:TENTATIVE
 SUMMARY:城市赛总决赛 冠亚军总决赛 - 0 : 3
-UID:6291cbd2-e72e-4e15-83db-e499b7aeeef1@6291.org
+UID:a182b737-16e8-472d-b5d4-5f906f8348df@a182.org
 URL:https://lpl.qq.com/es/live.shtml
 END:VEVENT
 END:VCALENDAR

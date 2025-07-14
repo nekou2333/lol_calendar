@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:2025电竞世界杯《英雄联盟》项目淘汰赛第五天
+DURATION:PT4H
+ORGANIZER;CN=英雄联盟2025电竞世界杯《英雄联盟》项目:mailto:lpl@qq.com
+DTSTART:20250720T170000Z
+STATUS:TENTATIVE
+SUMMARY:总决赛
+UID:012fff33-15e1-42e6-86f7-2408c587754e@012f.org
+URL:https://lpl.qq.com/es/live.shtml
+END:VEVENT
+END:VCALENDAR

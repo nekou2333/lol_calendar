@@ -15,21 +15,31 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Swift 6.3
-        uses: swift-actions/setup-swift@v2
-        with:
-          swift-version: "6.3"
+      - name: Verify Swift
+        run: docker run --rm swift:6.3.2-jammy swift --version
 
       - name: Test
-        run: swift test
+        run: |
+          docker run --rm \
+            --volume "$GITHUB_WORKSPACE:/workspace" \
+            --workdir /workspace \
+            swift:6.3.2-jammy \
+            swift test
 
       - name: Generate calendar files
-        run: swift run LoLCalendar
         env:
           CITO_API_KEY: ${{ secrets.CITO_API_KEY }}
+        run: |
+          docker run --rm \
+            --env CITO_API_KEY \
+            --volume "$GITHUB_WORKSPACE:/workspace" \
+            --workdir /workspace \
+            swift:6.3.2-jammy \
+            swift run LoLCalendar
 
       - name: Commit changes
         run: |

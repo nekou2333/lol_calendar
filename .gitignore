@@ -1,2 +1,6 @@
 index.js
 response.json
+.build/
+.swiftpm/
+.vscode/
+.DS_Store

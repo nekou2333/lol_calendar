@@ -1,25 +1,44 @@
 name: Update Calendar
+
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: "0 8 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-lol-calendar
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
+
+      - name: Set up Swift 6.3
+        uses: swift-actions/setup-swift@v2
         with:
-          python-version: '3.x'
+          swift-version: "6.3"
+
+      - name: Test
+        run: swift test
+
       - name: Generate calendar files
-        run: python generate_ics.py
+        run: swift run LoLCalendar
+        env:
+          CITO_API_KEY: ${{ secrets.CITO_API_KEY }}
+
       - name: Commit changes
         run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
-          git add games/ teams/
-          git commit -m 'Update calendar files' || echo 'No changes to commit'
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add docs/
+          if git diff --cached --quiet; then
+            echo "No calendar changes"
+            exit 0
+          fi
+          git commit -m "Update calendar files"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
